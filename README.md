@@ -1,7 +1,7 @@
 # My-Repository
 
-This is my Repository
+This is the main branch.
 
-This is edited from the main branch.
+Happy using Git.
 
 This is some addition.
