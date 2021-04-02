@@ -3,3 +3,5 @@
 This is the main branch.
 
 Happy using Git.
+
+This is some addition.
