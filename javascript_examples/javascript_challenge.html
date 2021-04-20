@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript challenge</h1>
+    <p>I will be <span id="myAge">aged </span> in <span id="futureYear"></span></p>
+    <script>
+        
+        //Challenge 1: Age calculator
+        var myAge = 34;
+        var futureYear = 1998;
+
+        myAge = myAge + futureYear - 2021;
+        document.getElementById("myAge").innerHTML =  myAge;
+        document.getElementById("futureYear").innerHTML =  futureYear;
+
+        //Challenge 2: Create information Card
+
+        var myName = "Yong Hoow";
+        var myLocation = "playground";
+        var myHobby = "using the slide";
+
+        console.log("Hi, my name is " + myName + ".")
+        console.log("I live in " + myLocation)
+        console.log(" and enjoy " + myHobby + ".")
+
+    </script>
+    
+</body>
+</html>
